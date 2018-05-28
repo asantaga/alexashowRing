@@ -1,0 +1,12 @@
+[Unit]
+Description=AlexaRingDoor
+After=multi-user.target
+
+[Service]
+Type=idle
+WorkingDirectory=/home/chip/AlexaRingDoor
+ExecStart=/usr/bin/python3 /home/chip/AlexaRingDoor/alexaringdoor.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
