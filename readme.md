@@ -2,13 +2,16 @@
 
 I like that on my alexa show I can say "Alexa Show me the front door" and see the video feed from the front door, but Im surprised that Alexa/Ring dont have a skill which allows this. I think its because Alexa skills cant execute anything on the alexa WITHOUT a human asking it.. 
 
-My workaround is to have a small program polling for the doorbell ding and when it occurs then play a sound file , on a small speaker near the alexashow which then shows the doorbell. After 60 seconds (configurable) the Pi will tell the echo show to stop showing the doorbell video.
+My workaround is to have a small program polling for the doorbell ding and when it occurs then play a sound file , on a small speaker, near the alexashow. When this happens the echo show , shows the doorbell video. 
+
+After 60 seconds (configurable) the Pi will tell the echo show to stop showing the doorbell video.
 
 
 ## Hardware
 
 1. Any device which can run python 3 . e.g. RaspberryPi or C.H.I.P
 2. Speaker connected to Linux device
+3. Echo Show , (may work on a echo spot but I havent tested this)
 
 ## Installation
 
