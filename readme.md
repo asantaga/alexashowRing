@@ -1,3 +1,8 @@
+# Deprecated
+
+This repo is now deprecated given the Amazon now added the functionality OOTB to the echo show devices. This script does offer some more flexibility and may be useful to someone in the future
+
+
 # Alexa Ring Doorbell add on for Alexa Show
 
 I like that on my alexa show I can say "Alexa Show me the front door" and see the video feed from the front door, but Im surprised that Alexa/Ring dont have a skill which allows this. I think its because Alexa skills cant execute anything on the alexa WITHOUT a human asking it.. 
